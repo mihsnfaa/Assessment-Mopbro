@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">MiniProject1</string>
+    <string name="app_name">Celcius Converter</string>
+    <string name="next">Next</string>
+    <string name="description">Convert Celsius to Fahrenheit and Kelvin</string>
+    <string name="back">Back</string>
+    <string name="share">Share</string>
+    <string name="convert">Convert</string>
+    <string name="about">About</string>
+    <string name="label">Temperature in Celsius</string>
+    <string name="app_description">About Application</string>
+    <string name="copyright">Celsius Converter is a simple application designed to help users convert temperature from Celsius scale to Fahrenheit and Kelvin scales easily. With an intuitive interface, users can quickly input values in degrees Celsius and instantly get the conversion results in Fahrenheit and Kelvin. The application provides convenience for users to perform temperature calculations without the need for manual calculation or using conversion formulas. With its simple yet efficient features \n\nCopyright © 2024 Muhammad Ihsan Firjatulloh Al Khasaf. \nAll rights reserved</string>
+    <string name="app_intro">Welcome to Celsius Converter, the ultimate solution for swift temperature conversions! Whether you\'re toggling between Celsius, Fahrenheit, or Kelvin, we\'ve got you covered. With just a few taps, easily transform Celsius to Fahrenheit and Kelvin or vice versa. Say goodbye to cumbersome calculations and hello to effortless temperature conversions with Celsius Converter!</string>
 </resources>

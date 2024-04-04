@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Konversi Celsius</string>
+    <string name="next">Lanjut</string>
+    <string name="description">Konversi Celsius ke Fahrenheit dan Kelvin.</string>
+    <string name="back">Kembali</string>
+    <string name="label">Suhu dalam Celcius</string>
+    <string name="share">Bagikan</string>
+    <string name="about">tentang</string>
+    <string name="convert">Konversi</string>
+    <string name="app_description">Tentang Aplikasi</string>
+    <string name="app_intro">Selamat datang di Celsius Converter, solusi terbaik untuk konversi suhu cepat! Baik Anda beralih antara Celsius, Fahrenheit, atau Kelvin, kami siap membantu Anda. Hanya dengan beberapa ketukan, ubah Celcius menjadi Fahrenheit dan Kelvin dengan mudah atau sebaliknya. Ucapkan selamat tinggal pada penghitungan yang rumit dan sambutlah konversi suhu yang mudah dengan Konverter Celcius!</string>
+    <string name="copyright">Celsius Converter adalah aplikasi sederhana yang dirancang untuk membantu pengguna mengkonversi suhu dari skala Celsius ke skala Fahrenheit dan Kelvin dengan mudah. Dengan antarmuka yang intuitif, pengguna dapat dengan cepat memasukkan nilai dalam derajat Celsius dan langsung mendapatkan hasil konversi dalam Fahrenheit dan Kelvin. Aplikasi ini memberikan kemudahan bagi pengguna untuk melakukan perhitungan suhu tanpa perlu menghitung secara manual atau menggunakan rumus konversi. Dengan fitur-fitur sederhana namun efisien,\n\nCopyright © 2024 Muhammad Ihsan Firjatulloh Al Khasaf.\nSemua hak dilindungi undang-undang.</string>
+</resources>
