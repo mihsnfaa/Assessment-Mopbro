@@ -20,6 +20,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import org.d3if0088.miniproject1.R
+import org.d3if0088.miniproject1.ui.theme.MiniProject1Theme
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -31,7 +32,7 @@ fun AboutScreen(navController: NavHostController) {
                     IconButton(onClick = {navController.popBackStack()}) {
                         Icon(imageVector = Icons.Filled.ArrowBack,
                             contentDescription = stringResource(R.string.back),
-                            tint = MaterialTheme.colorScheme.primary
+                            tint = MaterialTheme.colorScheme.primary,
                         )
                     }
                 },
@@ -47,7 +48,9 @@ fun AboutScreen(navController: NavHostController) {
     ) {padding ->
         Text(
             text = stringResource(R.string.copyright),
-            modifier = Modifier.padding(padding).padding(16.dp)
+            modifier = Modifier
+                .padding(padding)
+                .padding(16.dp)
         )
     }
 }
@@ -56,5 +59,7 @@ fun AboutScreen(navController: NavHostController) {
 @Preview(uiMode = Configuration.UI_MODE_NIGHT_YES, showBackground = true)
 @Composable
 fun AboutPreview(){
-    AboutScreen(rememberNavController())
+    MiniProject1Theme {
+        AboutScreen(rememberNavController())
+    }
 }

@@ -18,9 +18,9 @@ fun SetupNavGraph(navController: NavHostController = rememberNavController()){
         composable(route = Screen.Home.route){
             LandingScreen(navController)
         }
-        composable(route = Screen.Temperature.route){
-            MainScreen(navController)
-        }
+//        composable(route = Screen.Temperature.route){
+//            MainScreen(navController)
+//        }
         composable(route = Screen.About.route){
             AboutScreen(navController)
         }
