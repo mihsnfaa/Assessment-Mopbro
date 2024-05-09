@@ -12,5 +12,6 @@
     <string name="app_intro">Welcome to Celsius Converter, the ultimate solution for swift temperature conversions! Whether you\'re toggling between Celsius, Fahrenheit, or Kelvin, we\'ve got you covered. With just a few taps, easily transform Celsius to Fahrenheit and Kelvin or vice versa. Say goodbye to cumbersome calculations and hello to effortless temperature conversions with Celsius Converter!</string>
     <string name="delete">Delete</string>
     <string name="decline">Decline</string>
+    <string name="add">Add</string>
     <string name="mess_delete">Delete this comic</string>
 </resources>
