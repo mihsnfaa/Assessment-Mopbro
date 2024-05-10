@@ -45,14 +45,14 @@ fun LandingScreen(navController: NavHostController){
         )
         Image(
             painter = painterResource(R.drawable.letterc),
-            contentDescription = "Logo Temperature",
+            contentDescription = "Logo Comic",
             contentScale = ContentScale.FillBounds,
             modifier = Modifier
                 .size(140.dp)
                 .padding(top = 20.dp)
         )
         Button(
-            onClick = { navController.navigate("temperatureScreen")},
+            onClick = { navController.navigate("mainScreen")},
             modifier = Modifier
                 .fillMaxWidth(0.5f)
                 .padding(top = 24.dp),

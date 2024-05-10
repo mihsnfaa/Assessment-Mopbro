@@ -6,19 +6,17 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import org.d3if0088.miniproject1.database.ComicsDao
 import org.d3if0088.miniproject1.model.Comics
-import java.text.SimpleDateFormat
-import java.util.Locale
 
 class DetailViewModel(private val dao: ComicsDao) : ViewModel() {
 
-    private val formatter = SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.US)
-
-    fun insert(judul: String, author: String, released: String, genre: String) {
+    fun insert(title: String, desc: String, author: String, released: String, genre: String, status: Int) {
         val comics = Comics(
-            title = judul,
+            title = title,
+            desc = desc,
             author = author,
             released = released,
-            genre = genre
+            genre = genre,
+            status = status
         )
 
         viewModelScope.launch(Dispatchers.IO) {
@@ -30,13 +28,15 @@ class DetailViewModel(private val dao: ComicsDao) : ViewModel() {
         return dao.getComicsById(id)
     }
 
-    fun update(id: Long, judul: String, author: String, released: String, genre: String) {
+    fun update(id: Long, title: String,desc: String, author: String, released: String, genre: String, status: Int) {
         val comics = Comics(
             id = id,
-            title = judul,
+            title = title,
+            desc = desc,
             author = author,
             released = released,
-            genre = genre
+            genre = genre,
+            status = status
         )
         viewModelScope.launch(Dispatchers.IO) {
             dao.update(comics)
