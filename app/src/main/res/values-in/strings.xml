@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Konversi Celsius</string>
+    <string name="app_name">Simpan Komik</string>
     <string name="next">Lanjut</string>
-    <string name="description">Konversi Celsius ke Fahrenheit dan Kelvin.</string>
+    <string name="description">Simpan Komikmu Disini!</string>
     <string name="back">Kembali</string>
-    <string name="label">Suhu dalam Celcius</string>
-    <string name="share">Bagikan</string>
+    <string name="label">Simpan Komikmu!</string>
     <string name="about">tentang</string>
-    <string name="convert">Konversi</string>
     <string name="app_description">Tentang Aplikasi</string>
-    <string name="app_intro">Selamat datang di Celsius Converter, solusi terbaik untuk konversi suhu cepat! Baik Anda beralih antara Celsius, Fahrenheit, atau Kelvin, kami siap membantu Anda. Hanya dengan beberapa ketukan, ubah Celcius menjadi Fahrenheit dan Kelvin dengan mudah atau sebaliknya. Ucapkan selamat tinggal pada penghitungan yang rumit dan sambutlah konversi suhu yang mudah dengan Konverter Celcius!</string>
+    <string name="app_intro">Dengan Save Comics, Kamu bisa dengan mudah menyimpan koleksi komik favorit. Dengan antarmuka yang intuitif dan fitur yang mudah digunakan, Kamu bisa mengelola komik dengan lebih baik.</string>
     <string name="copyright">Aplikasi Save Comic menyediakan list bagi user untuk membuat daftar komik favorit mereka. Dengan fitur save ini, user dapat dengan mudah menyimpan komik-komik yang mereka minati untuk dibaca kembali nanti. Fitur save memungkinkan user untuk membuat koleksi pribadi dari komik-komik yang paling disukai dan penting bagi user, memastikan bahwa user selalu dapat mengingat komik-komik tersebut dengan cepat dan mudah.\n\nCopyright © 2024 Muhammad Ihsan Firjatulloh Al Khasaf.\nSemua hak dilindungi undang-undang.</string>
+    <string name="delete">Hapus</string>
+    <string name="decline">Tolak</string>
+    <string name="add">Tambahkan komik</string>
+    <string name="mess_delete">Hapus komik ini</string>
+    <string name="other">Opsi lainnya</string>
+    <string name="edit">Edit komik</string>
+    <string name="invalid">Tidak boleh kosong</string>
+    <string name="save">Simpan</string>
+    <string name="title">Judul</string>
+    <string name="fill">Isi Deskripsi</string>
+    <string name="empty">Tidak ada apapun</string>
+    <string name="ongoing">Sedang berlangsung</string>
+    <string name="completed">Selesai</string>
+    <string name="author">Penulis</string>
+    <string name="released">Tanggal Rilis</string>
+    <string name="genre">Genre</string>
 </resources>
