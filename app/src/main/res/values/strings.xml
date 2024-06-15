@@ -1,27 +1,19 @@
 <resources>
     <string name="app_name">Save Comic</string>
-    <string name="next">Next</string>
     <string name="description">Save Your Comics here!</string>
-    <string name="back">Back</string>
-    <string name="about">About</string>
     <string name="label">Save your comics!</string>
-    <string name="app_description">About Application</string>
-    <string name="copyright">The Save Comic application provides a list for users to create a list of their favorite comics. With this save feature, users can easily store comics they are interested in to read later. The save feature allows users to create a personal collection of their favorite and important comics, ensuring that they can always recall these comics quickly and easily. \n\nCopyright © 2024 Muhammad Ihsan Firjatulloh Al Khasaf. \nAll rights reserved</string>
-    <string name="app_intro">With Save Comics, you can easily save your favorite comic collections. With an intuitive interface and user-friendly features, you can manage comics more efficiently.</string>
     <string name="delete">Delete</string>
     <string name="decline">Decline</string>
     <string name="add">Add comic</string>
-    <string name="mess_delete">Delete this comic</string>
-    <string name="other">Other options</string>
-    <string name="edit">Edit comic</string>
-    <string name="invalid">Can\'t be empty</string>
     <string name="save">Save</string>
     <string name="title">Title</string>
     <string name="fill">Fill Descrpition</string>
     <string name="empty">There\'s Nothing</string>
-    <string name="ongoing">Ongoing</string>
-    <string name="completed">Completed</string>
-    <string name="author">Author</string>
-    <string name="released">Released</string>
     <string name="genre">Genre</string>
+    <string name="close">Close</string>
+    <string name="logout">Logout</string>
+    <string name="profile">Profile</string>
+    <string name="error">Error</string>
+    <string name="try_again">Try Again</string>
+    <string name="picture">Picture %1$s</string>
 </resources>
